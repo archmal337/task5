@@ -155,7 +155,7 @@ async function main() {
   console.log("Transaction Receipt: ", \`Minting NFT has been success! Transaction hash: https://explorer-evm.testnet.swisstronik.com/tx/\${safeMintTx.hash}\`);
 }
 
-main().catch((error) => {cd1640fbad5748d8dc07cb7c41ef0643603928fb35c439ce78c5dc694b115fae
+main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
